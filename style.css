@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family:Anta;
+    src: url(./fonts/Anta/Anta-Regular.ttf);
+ }
+
+ @font-face {
+    font-family:Quicksand;
+    src: url(./fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+ }
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ header{
+    height: 60px;
+    background-color: #1B7EA6;
+    
+    
+ }
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+}
+
+.cabecalho-imagem{
+    display: block;
+    margin-right: 400px;
+    /* margin-right: 400px; */
+    height: 60px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 100px;
+    
+}
+.cabecalho-menu-item{
+    color: aliceblue;
+    font-size: 18px;
+    font-family:Anta;
+}
+.conteudo{
+    border-top:0.4px solid #183140 ;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.137) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    
+}
+.conteudo-nos{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    
+}
+
+.conteudo-nos-escrito{
+    display: flex;
+    flex-direction: column;
+}
+.conteudo-nos-titulo{
+   
+    font-family:Quicksand;
+    color: #183140;
+    margin: auto;
+    padding: 5px;
+}
+.conteudo-nos-paragrafo{
+    margin-top: 70px;
+}
+.conteudo-nos-imagem01{
+    width: 600px;
+    height:270px;
+}
+/* .conteudo-nos-container{
+    padding: 20px;
+} */ 
+
+
+.rodape-imagem{
+    height: 110px;
+    width:120px;
+}
